@@ -1,0 +1,213 @@
+body{
+    margin: 0px; 
+    padding: 0px;
+}
+
+.menu{
+    background: #ff7212;
+    padding: 0px;
+    margin: 0px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;     
+}
+
+
+#imagem{
+    margin: 15px;
+    height: 30px;
+    width: 30px;
+}
+
+#busca{
+    display: flex;
+    margin: 12px 0 0 15px;
+    font-size: 15px;
+    text-align: left;
+    justify-content: center;
+    line-height: 60px;  
+    height: 18px;
+    width: 167px;
+    border: 2px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    outline: none;
+}
+#lupa{
+    position: absolute;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 12px 0 0 310px;
+    width: 38px;
+    height: 38px;
+    background-color: white;
+}
+
+#terra{
+    margin: 10px 0 15px 250px;
+}
+
+.texto1{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    margin: 12px 0 15px 250px;
+}
+
+#risco{
+    width: 2px;
+    height: 30px;
+    margin: 15px 0 15px 5px;
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+.container{
+    margin: 30px 0 0 30px;
+    width: 700px;
+    height: 200px;
+    display: flex;
+}
+.container1{
+    position: absolute;
+    margin: 230px 0 0 30px;
+    width: 700px;
+    height: 200px;
+    display: flex;
+}
+
+.linha{
+    margin: 10px;
+    width: 330px;
+    height: 180px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.imgmenu{
+    width: 165px;
+    height: 180px;
+}
+
+.titulo{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+
+#titulo1{
+    color: rgb(194, 191, 0);
+}
+#titulo2{  
+    color: red;
+}
+#titulo3{
+    color: green;
+}
+#titulo4{
+    color: blue;
+}
+
+.subt{
+    font-size: 11.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-left: 175px;
+    margin-top: 60px;
+}
+
+
+#corpo{
+    position: absolute;
+    display: flex;
+}
+
+#base{
+    width: 525px;
+    height: 525px;
+    background-color: rgb(98, 167, 164);
+    margin: 30px;
+    display: flex;
+}
+
+#cabeca{
+    display: flex;
+    position: absolute;
+    margin: 112.5px;
+    border-radius: 300px;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(166, 190, 207);
+}
+
+.orelhas{
+    position: absolute;
+    width: 170px;
+    height:170px;
+    border-radius: 125px;
+    background-color: rgb(129, 156, 175);
+    border: 15px solid rgb(166, 190, 207);
+}
+
+#orelhaE{
+    margin: 125px 0 0 45px;
+}
+
+#orelhaD{
+    margin: 125px 0 0 285px;
+}
+
+.olhos{
+    position: absolute;
+    border-radius: 85px;
+    width: 85px;
+    height: 85px;
+    background-color: white;
+}
+
+#olhoE{
+    margin: 90.5px 107.5px 107.5px 70px;
+}
+
+#olhoD{
+    margin: 90.5px 107.5px 107.5px 144px;
+}
+
+.pupila{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: black;
+    margin: 22.5px;
+}
+
+#nariz{
+    position: absolute;
+    width: 75px;
+    height: 110px;
+    background-color: rgb(190, 132, 95);
+    border-radius: 85px;
+    margin: 150px 112.5px 0px 112.5px;
+}
+
+#cabelo{
+    background-color: rgb(166, 190, 207);
+    width: 135px;
+    height: 100px;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    margin: 90px 0 0 170px
+}
+#cabelo2{
+    position: absolute;
+    background-color: rgb(166, 190, 207);
+    width: 135px;
+    height: 100px;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    margin: 100px 0 0 220px
+}
